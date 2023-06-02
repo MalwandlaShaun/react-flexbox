@@ -3,6 +3,7 @@ import './App.css';
 
 function App() {
   return (
+    <>
     <div className="App">
      
     <div className='top-divs'>
@@ -17,8 +18,11 @@ function App() {
       <div className='mid-div-three'></div>
     </div>
     
-    <div className='bott-div'></div>
+    <div className='bott-div'>
+      <div className='bott-div-one'></div>
     </div>
+    </div>
+    </>
   );
 }
 
