@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+ background-color: aquamarine;
+
+}
+
+.top-divs{
+  
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-divs div {
+  width: 400px;
+  height: 200px;
+}
+
+.top-div-one{
+  background-color: purple;
+
+}
+
+.top-div-two{
+  background-color: red;
+  
+}
+
+.top-div-three{
+  background-color: orange;
+  
+}
+
+/* Colouring of the middle section */
+
+.mid-divs{
+  height: 650px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mid-divs div {
+  margin-top: 50px;
+  width: 400px;
+  height: 550px;
+}
+
+.mid-div-one{
+  background-color: pink;
+
+}
+
+.mid-div-two{
+  border-radius: 50%;
+  background-color: gray;
+  align-self: center;
+  height: 370px!important;
+}
+
+
+
+.mid-div-three{
+  background-color: peachpuff;
+  
+}
+
+/* this is the bottom div */
+
+.bott-div{
+  height: 200px;
+  background-color: yellow;
+}
